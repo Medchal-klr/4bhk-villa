@@ -418,6 +418,7 @@ button {
 }
 
 .gallery-item {
+    position: relative;
     overflow: hidden;
     min-height: 320px;
     border-radius: var(--radius);
@@ -440,6 +441,20 @@ button {
     transform: scale(1.025);
 }
 
+.gallery-label {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(20, 25, 22, 0.82);
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    backdrop-filter: blur(4px);
+}
 
 /* =========================================================
    SPECS
